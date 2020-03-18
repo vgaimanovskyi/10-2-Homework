@@ -1,0 +1,128 @@
+body {
+    background: #f6f6f6;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+}
+
+body, form, div, p, a, img, h1, h2, h3, h4, h5, h6, table, table tr, table td {
+    border: none;
+    color: #000000;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
+input,
+textarea,
+select {
+    outline: none;
+    font-family: Arial;
+    font-size: 12px;
+    box-sizing: border-box;
+}
+
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/* .mainer */
+.mainer {
+    max-width: 1170px;
+    min-width: 570px;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+/* .header */
+.header {
+    max-width: 570px;
+    margin: 108px auto 62px auto;
+}
+.header h1 {
+    color: #3c3c3c;
+    font-size: 34px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 0 20px 0;
+}
+.header .object {
+    width: 45px;
+    height: 4px;
+    background-color: #dddbdb;
+    margin: 0 auto 40px auto;
+}
+.header .header-about {
+    color: #3c3c3c;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: center;
+}/* .row */
+.staff {
+    min-height: 300px;
+}
+.staff .bg-photo {
+    position: relative;
+    background-color: rgba(218, 218, 218, 0.9);
+    font-size: 0;
+    margin: 0 0 20px 0;
+}
+.staff img {
+    width: 100%;
+}
+.staff .name {
+    color: #282528;
+    font-size: 18px;
+    font-weight: 700;
+}
+.staff .prof {
+    color: #646464;
+    font-size: 14px;
+    font-weight: 300;
+}
+.social {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    background-color: #00aed9;
+    opacity: 0.9;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    z-index: -1;
+}
+.bg-photo:hover .social {
+    transition-duration: 0.3s;
+    z-index: 2;
+}
+.social a {
+    display: flex;
+    margin: 2px;
+    width: 42px;
+    height: 42px;
+    color: #fbebe5;
+    background-color: rgba(255, 255, 255, 0.1);
+    text-align: center;
+    font-size: 24px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.social a:hover {
+    color: #00aed9;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+  
+  
